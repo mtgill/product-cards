@@ -1,0 +1,63 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    border: 1px solid lightblue;
+    box-shadow: 10px 5px 5px lightgray;
+}
+
+.product-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-bottom: 1px solid lightblue;
+}
+
+.photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.section1 {
+    margin-bottom: 20px;
+}
+
+.availability {
+    color: yellow;
+    background-color: grey;
+}
+
+.section2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.specs-title,
+.price-title {
+    font-size: large;
+}
+
+.specs-expiration {
+    font-size: small;
+}
+
+.section3 {
+    font-weight: bold;
+}
