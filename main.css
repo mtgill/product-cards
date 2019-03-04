@@ -4,13 +4,18 @@
     box-sizing: border-box;
   }
 
+  @media (max-width: 920px) {
 .card-container {
     display: flex;
 }
+  }
+
+  .header-space {
+      height: 150;
+  }
 
 .card-grid {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;   
 }
@@ -18,7 +23,7 @@
 .card {
     display: flex;
     flex-direction: column;
-    width: 250px;
+    max-width: 250;
     border: 1px solid lightblue;
     box-shadow: 10px 5px 5px darkgray;
     margin: 15px;
@@ -30,7 +35,6 @@
     align-items: center;
     font-size: x-large;
     font-weight: bold;
-    margin-bottom: 10px;
     border-bottom: 1px solid lightblue;
 }
 
@@ -44,12 +48,13 @@
 
 .description {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     margin: 10px;
 }
 
 .section1 {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .availability {
@@ -59,12 +64,7 @@
 
 .section2 {
     font-weight: bold;
-    margin-bottom: 20px;
-}
-
-.specs-title,
-.price-title {
-    font-size: large;
+    margin-bottom: 10px;
 }
 
 .specs-expiration {
