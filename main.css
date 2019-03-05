@@ -4,21 +4,27 @@
     box-sizing: border-box;
   }
 
+body {
+      background-color: lightcyan;
+  }
   @media (max-width: 920px) {
 .card-container {
     display: flex;
 }
   }
+  
 
-  .header-space {
+.header-space {
       height: 150;
   }
 
 .card-grid {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;   
+    justify-content: center; 
+     
 }
+
 
 .card {
     display: flex;
@@ -27,7 +33,12 @@
     border: 1px solid lightblue;
     box-shadow: 10px 5px 5px darkgray;
     margin: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: whitesmoke;
+    font-family: 'PT Sans', sans-serif;
 }
+
 
 .product-heading {
     display: flex;
@@ -36,6 +47,9 @@
     font-size: x-large;
     font-weight: bold;
     border-bottom: 1px solid lightblue;
+    padding-top: 2px;
+    padding-bottom: 4px;
+
 }
 
 .photo {
@@ -46,11 +60,35 @@
     font-weight: bold;
 }
 
+.photo img {
+    max-width: 100%;
+}
+
+.sold-out {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.sold-out-base {
+    position: relative;
+    top: 0;
+    left: 0; 
+}
+
+.sold-out-layer {
+    position: absolute;
+    top: 27;
+    left: -90;
+}
+
 .description {
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin: 10px;
+    padding-top: 5px;
+   
 }
 
 .section1 {
@@ -60,11 +98,13 @@
 .availability {
     color: yellow;
     background-color: grey;
+    padding-left: 5px;
 }
 
 .section2 {
     font-weight: bold;
     margin-bottom: 10px;
+    padding-left: 5px;
 }
 
 .specs-expiration {
@@ -74,5 +114,8 @@
 .section3 {
     font-weight: bold;
     margin-bottom: 5px;
+    padding-left: 5px;
 }
+
+
 
