@@ -4,7 +4,7 @@ This site shows 5 product cards, each with 5 different types of bikes. Each card
 
 ## Screenshots
 
-![pet-adoption screenshot](https://raw.githubusercontent.com/mtgill/pet-adoption/master/screenshot/pet-adoption-screenshot.PNG "pet-adoption screenshot")
+![product-cards screenshot](https://raw.githubusercontent.com/mtgill/product-cards/master/screenshot/screenshot.PNG "product-cards screenshot")
 
 
 ## Getting Started 
